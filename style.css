@@ -1,0 +1,116 @@
+body {
+    background-color: #3C2F2F;
+    font-family: "Cormorant Garamond", serif;
+    height: 100vh;
+    margin: 0;
+  }
+  header {
+    display: flex;
+    flex-direction: row;
+    color: #F2E8D0;
+    padding: 20px;
+    text-align: center;
+    justify-content:space-between;
+  }
+  #audioButton {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 36px;
+    font-family: "Cormorant Garamond", serif;
+    background-color: #2A4F44;
+    border: 5px solid #C9A03B;
+    color: #F2E8D0;
+    align-items: center;
+    justify-content: center;
+  }
+  #audioButton:hover {
+    background-color: #F2E8D0;
+    color: #2A4F44;
+  }
+  #mainSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: #F2E8D0;
+  }
+  .game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+    gap: 5px;
+    padding: 20px;
+    background-color: #C9A03B;
+  }
+  .cell {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2A4F44;
+    font-size: 36px;
+    cursor: pointer;
+    border: 2px solid #C9A03B;
+  }
+  .cell:hover {
+    background-color: #F2E8D0;
+  }
+  #rightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+  }
+  #turno {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 36px;
+    font-family: "Cormorant Garamond", serif;
+    background-color: #2A4F44;
+    border: 5px solid #C9A03B;
+    color: #F2E8D0;
+  }
+  .status {
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 200px;
+    padding: 20px;
+    border: 5px solid #C9A03B;
+    font-size: 36px;
+    color: #F2E8D0;
+    background-color: #2A4F44;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #reset {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 200px;
+    height: 80px;
+    font-size: 36px;
+    font-family: "Cormorant Garamond", serif;
+    background-color: #2A4F44;
+    border: 5px solid #C9A03B;
+    color: #F2E8D0;
+    align-items: center;
+    justify-content: center;
+  }
+  #reset:hover {
+    background-color: #F2E8D0;
+    color: #2A4F44;
+  }
+  .cormorant-garamond-regular {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 400;
+    font-style: normal;
+  }

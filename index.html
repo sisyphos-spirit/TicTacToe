@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juego de las Tres en raya</title>
+        <link rel="stylesheet"  href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+        <audio id="audio" loop><source type="audio/mp3" src="./audio/Tchaikovsky - Melodie Op.42, No.3.mp3"></audio>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="./img/SherlockIcon.svg" height="200" width="200">
+                <h1>Tres en raya</h1>
+            </div>
+            <button id="audioButton">Audio: off</button>
+        </header>
+        
+        <section id="mainSection">
+            <div>
+                <div class="game-board" id="board"></div>
+            </div>
+            <div id="rightSide">
+                <div>
+                    <div id="turno">Turno:</div>
+                    <div class="status" id="status"></div>
+                </div>
+                
+                <div><button id="reset">Reiniciar</button></div>
+            </div>
+        </section>
+        
+        <script src="app.js"></script>
+    </body>
+</html>
